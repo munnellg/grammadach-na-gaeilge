@@ -1,0 +1,42 @@
+#noun-area {
+	font-size:24pt;
+    text-align: center;
+    margin: 20px;
+}
+
+#noun {
+    font-weight: bold;
+}
+
+#noun::before {
+	content: 'What gender is "';
+	font-weight: initial;
+}
+
+#noun::after {
+	content: '"?';
+	font-weight: initial;
+}
+
+#translation {
+	font-style:italic;
+}
+
+#score-area {
+	text-align: right;
+}
+
+#score-area li {
+	display: inline;
+	padding: 10px;
+	font-size: 16pt;
+}
+
+#control-area {
+	text-align: center;
+}
+
+#control-area a {
+	font-size: 16pt;
+	margin: 10px;	
+}
